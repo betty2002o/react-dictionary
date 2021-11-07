@@ -1,0 +1,13 @@
+.Dictionary {
+  margin: 50px auto;
+}
+
+.submit-button {
+  margin-left: 5px;
+  background-color: rgba(179, 220, 255);
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 15px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
+  border-color: rgba(179, 220, 255);
+}
