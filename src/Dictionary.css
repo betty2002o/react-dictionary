@@ -2,6 +2,12 @@
   margin: 50px auto;
 }
 
+.title {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 700;
+}
+
 .submit-button {
   margin-left: 5px;
   background-color: rgba(179, 220, 255);
@@ -10,4 +16,14 @@
   font-size: 15px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.288);
   border-color: rgba(179, 220, 255);
+}
+
+.sectioning {
+  background-color: white;
+  border: 1px solid rgba(143, 210, 219, 0.664);
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 10px;
+  padding: 30px;
+  border-radius: 8px;
+  margin: 20px auto;
+  text-align: left;
 }

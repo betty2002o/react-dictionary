@@ -4,7 +4,7 @@ import "./Dictionary.css";
 import Definations from "./Definations";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState(null);
+  let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
@@ -25,15 +25,18 @@ export default function Dictionary() {
   }
 
   let form = (
-    <form onSubmit={onSubmit}>
-      <input
-        type="search"
-        autoFocus={true}
-        placeholder="Search For A Word..."
-        onChange={handleChangeKeyword}
-      ></input>
-      <input type="submit" className="submit-button"></input>
-    </form>
+    <div>
+      <div className="title"> Dictionary Search Engine</div>
+      <form onSubmit={onSubmit}>
+        <input
+          type="search"
+          autoFocus={true}
+          placeholder="Search For A Word..."
+          onChange={handleChangeKeyword}
+        ></input>
+        <input type="submit" className="submit-button"></input>
+      </form>
+    </div>
   );
 
   if (loaded) {

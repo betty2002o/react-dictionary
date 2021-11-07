@@ -1,11 +1,25 @@
 import React from "react";
 import Meaning from "./Meaning";
+import "./Definations.css";
 export default function Definations(props) {
   console.log(props.data.meanings);
 
   return (
     <div className="Definations">
-      <div className="word">{props.data.word}</div>
+      <div className="sectioning">
+        <div className="word">{props.data.word}</div>
+        <div className="phonetics">
+          <span className="text">/{props.data.phonetics[0].text}/</span>
+          <a
+            href={props.data.phonetics[0].audio}
+            className="audio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fas fa-volume-up speaker"></i>
+          </a>
+        </div>
+      </div>
       {props.data.meanings.map(function (meaning, index) {
         return (
           <div key={index}>

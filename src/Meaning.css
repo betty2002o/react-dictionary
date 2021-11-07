@@ -1,0 +1,21 @@
+.partOfSpeech {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.definition {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  margin: 20px;
+}
+
+.meaning {
+  margin: 15px;
+}
+
+.example {
+  font-size: 13px;
+  font-weight: 500;
+}
