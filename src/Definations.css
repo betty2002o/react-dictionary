@@ -18,6 +18,10 @@
   line-height: 20px;
 }
 
+.speaker:hover {
+  color: rgb(47, 0, 255);
+}
+
 .phonetics {
   font-size: 18px;
 }

@@ -5,7 +5,7 @@ function Credit() {
   return (
     <p className="Credit">
       <a
-        href="https://github.com/betty2002o/weather-app-react"
+        href="https://github.com/betty2002o/react-dictionary"
         className="GithubLink"
         target="_blank"
         rel="noreferrer"

@@ -1,7 +1,13 @@
 ul {
   list-style: none;
+  display: inline-block;
 }
-ul#horizontal-list li {
-  display: inline;
-  background-color: black;
+
+.synonyms-title {
+  font-size: 14px;
+  margin-left: 15px;
+}
+
+.synonyms {
+  font-size: 14px;
 }

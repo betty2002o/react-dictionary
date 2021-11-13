@@ -13,9 +13,15 @@
 
 .meaning {
   margin: 15px;
+  border: 1px solid rgba(0, 195, 255, 0.171);
+  border-radius: 25px;
+  background-color: rgba(0, 195, 255, 0.068);
+  padding: 10px;
 }
 
 .example {
   font-size: 13px;
   font-weight: 500;
+  margin: 15px;
+  font-style: italic;
 }
