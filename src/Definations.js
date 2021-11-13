@@ -2,8 +2,6 @@ import React from "react";
 import Meaning from "./Meaning";
 import "./Definations.css";
 export default function Definations(props) {
-  console.log(props.data.meanings);
-
   return (
     <div className="Definations">
       <div className="sectioning">
@@ -16,7 +14,7 @@ export default function Definations(props) {
             target="_blank"
             rel="noreferrer"
           >
-            <i class="fas fa-volume-up speaker"></i>
+            <i className="fas fa-volume-up speaker"></i>
           </a>
         </div>
       </div>

@@ -10,7 +10,6 @@ export default function Dictionary() {
 
   function fetchData(response) {
     setResults(response.data[0]);
-    console.log(response.data[0]);
     setLoaded(true);
   }
 
