@@ -1,13 +1,16 @@
 ul {
   list-style: none;
   display: inline-block;
-}
-
-.synonyms-title {
-  font-size: 14px;
-  margin-left: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .synonyms {
   font-size: 14px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.synonyms-title {
+  margin-bottom: 10px;
 }

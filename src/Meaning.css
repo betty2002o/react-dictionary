@@ -4,24 +4,23 @@
   margin-bottom: 10px;
 }
 
+.meaning {
+  margin: 15px;
+  border: 1px solid rgba(0, 195, 255, 0.171);
+  border-radius: 10px;
+  background-color: rgba(0, 195, 255, 0.027);
+  padding: 20px;
+}
+
 .definition {
   font-size: 14px;
   font-weight: 700;
   line-height: 17px;
-  margin: 20px;
-}
-
-.meaning {
-  margin: 15px;
-  border: 1px solid rgba(0, 195, 255, 0.171);
-  border-radius: 25px;
-  background-color: rgba(0, 195, 255, 0.068);
-  padding: 10px;
 }
 
 .example {
   font-size: 13px;
   font-weight: 500;
-  margin: 15px;
   font-style: italic;
+  padding: 15px 0;
 }
